@@ -39,6 +39,17 @@
         </configuration>
       </plugin>
 
+             <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version> <!-- Use the latest version -->
+    <configuration>
+        <source>7</source> <!-- Update source version to 7 -->
+        <target>7</target> <!-- Update target version to 7 -->
+    </configuration>
+</plugin>
+
+
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
